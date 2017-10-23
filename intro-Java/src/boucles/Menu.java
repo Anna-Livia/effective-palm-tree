@@ -34,7 +34,7 @@ public class Menu {
                 System.out.println(message + "C");
             }
             if (choix == 4) {
-                System.out.println(">>>> Au revoir");
+                System.out.println(">>>> Au revoir les amis !!");
                 continuer = false;
             }
 

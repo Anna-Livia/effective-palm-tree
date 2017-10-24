@@ -1,6 +1,6 @@
-/*
- //6. lire 10000 nombres et trouver le plus petit et son rang.
 
+ //6. lire 10000 nombres et trouver le plus petit et son rang.
+/*
  déclaration des variables
  entier n
  entier petit

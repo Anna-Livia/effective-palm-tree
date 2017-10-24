@@ -38,7 +38,7 @@ public class Exercice07 {
 
         int n;
         int a;
-        double somme = 0;
+        float somme = 0;
         String saisie;
 
         System.out.println("Combien de nombres allons-nous étudier?");

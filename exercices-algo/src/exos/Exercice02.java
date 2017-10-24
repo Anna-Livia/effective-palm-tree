@@ -19,9 +19,9 @@ public class Exercice02 {
         int somme = 0;
         for (int i=1 ; i <= 10; i+=1){
             somme= somme + i;
-            System.out.println(somme);
+            
         }
-        
+        System.out.println(somme);
     }
     
 }

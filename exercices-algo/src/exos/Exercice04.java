@@ -68,7 +68,7 @@ public class Exercice04 {
         }
         
         int nproche;
-        if(2 * (n / 2) != n){                   // si n est impair
+        if((n % 2) == 1){                        // si n est impair
             if(n > 0){                          // positif
               nproche = n + 1;
             }

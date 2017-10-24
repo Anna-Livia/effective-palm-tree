@@ -9,21 +9,15 @@
  */
 package exosSupplementaires;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public class bonus04 {
 
-    public static void main(String[] args) throws IOException {
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+    public static void main(String[] args) {
 
-        int tableau1[] = {4};
+        int tableau1[] = {4, -3, 0};
         int tableau2[] = {3, 6, 5, 9};
 
         int schtroumpf = 0;
-
+        System.out.println("Parcours  de i et j dans les tableaux:");
         for (int i = 0; i < tableau1.length; i++) {
 
             for (int j = 0; j < tableau2.length; j++) {
@@ -36,9 +30,7 @@ public class bonus04 {
 
         }
 
-        System.out.println("shctroumpf = " + schtroumpf);
+        System.out.println("\n>>> schtroumpf = " + schtroumpf);
 
-        br.close();
-        isr.close();
     }
 }

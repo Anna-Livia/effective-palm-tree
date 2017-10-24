@@ -9,32 +9,25 @@
  */
 package exosSupplementaires;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Collections;
 
 public class bonus05prime {
 
-    public static void main(String[] args) throws IOException {
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+    public static void main(String[] args) {
 
         String debut;
+        int taille = 100;
 
-        for (int i = 1; i <= 200; i++) {
+        for (int i = 1; i <= taille; i++) {
             if (i % 2 == 1) {         // rang impair
                 debut = "ox";
-
             } else {
                 debut = "xo";
-
             }
-            System.out.println(String.join("", Collections.nCopies(100, debut)));
+
+            System.out.println(String.join("", Collections.nCopies(taille / 2, debut)));
 
         }
 
-        br.close();
-        isr.close();
     }
 }

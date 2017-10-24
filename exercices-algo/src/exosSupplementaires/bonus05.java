@@ -15,15 +15,15 @@ public class bonus05 {
 
         String debut;
         String ligne;
-        int nblignes = 300;
+        int nblignes = 100;
 
         for (int i = 1; i <= nblignes; i++) {
             ligne = "";
             if (i % 2 == 1) {         // rang impair
-                debut = "OX";
+                debut = "ox";
 
             } else {                    // rang pair
-                debut = "XO";
+                debut = "xo";
             }
 
             for (int j = 2; j <= nblignes / 2; j++) {

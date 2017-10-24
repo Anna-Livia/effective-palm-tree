@@ -30,7 +30,7 @@ public class bonus01 {
                 System.out.println(">>Plus grand que ça!");
             }
             if (n > max) {
-                System.out.println(">>Plus petit que ça");
+                System.out.println(">>Plus petit que ça!");
 
             }
             System.out.print("Essayez à nouveau: ");

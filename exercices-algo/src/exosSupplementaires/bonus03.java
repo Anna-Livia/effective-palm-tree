@@ -13,15 +13,9 @@
  */
 package exosSupplementaires;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public class bonus03 {
 
-    public static void main(String[] args) throws IOException {
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+    public static void main(String[] args) {
 
         int tableau[] = new int[8];
         tableau[0] = 1;
@@ -30,14 +24,11 @@ public class bonus03 {
         for (int i = 2; i < tableau.length; i++) {
             tableau[i] = tableau[i - 2] + tableau[i - 1];
         }
-        
+
         // VERIFICATION
         for (int i = 0; i < tableau.length; i++) {
             System.out.println("rang " + i + " : " + tableau[i]);
         }
-
-        br.close();
-        isr.close();
 
     }
 }

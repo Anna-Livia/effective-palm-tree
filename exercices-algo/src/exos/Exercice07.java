@@ -57,7 +57,7 @@ public class Exercice07 {
             somme = (somme + a);
         }
 
-        System.out.println("La moyenne de ces " + n + " nombres est:" + (somme / n) );
+        System.out.println("La moyenne de ces " + n + " nombres est:" + (somme / n));
 
         br.close();
         isr.close();
